@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>header page</title>
+    
+</head>
+<body>
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0;
+            font-family: Arial;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        .wrapper {
+            width: 1200px;
+        }
+
+        .header {
+            width: 100%;
+            height: 30px;
+            display: flex;
+            padding-top: 5px;
+            padding:10px 10px;
+        }
+
+        .logo {
+            width: 33.3%;
+            padding-top: -1px;
+         
+            
+        }
+
+        .search-hover {
+            width: 33.3%;
+            padding-top: 6px;
+        }
+
+        .shopping {
+            width: 33.3%;
+            margin-left: 140px;
+            padding-top: 3px;
+        }
+
+        .search {
+            width: 100%;
+            position: relative;
+            display: flex;
+        }
+
+        .searchTerm {
+            width: 100%;
+            border: 3px solid tomato;
+            border-right: none;
+            padding: 4.5px;
+            height: 22.3px;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+        }
+
+            .searchTerm:focus {
+                color: #778899;
+            }
+
+        .searchButton {
+            width: 168px;
+            height: 37px;
+            border: 1px solid tomato;
+            background: tomato;
+            text-align: center;
+            color: #fff;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            font-size: 22px;
+        }
+
+        .department {
+            width: 0%;
+            height: 30px;
+            padding-top: 13px;
+        }
+
+
+        .vehicles {
+            width: 13%;
+            height: 30px;
+            padding-top: 13px;
+        }
+
+        .menu-main {
+            background-color: tomato;
+            height: 53px;
+            margin-top: 10px;
+            display: flex;
+            font-size:21px;
+        }
+
+        .hotline {
+            display: flex;
+            padding-top: 10px;
+            padding-bottom:9px;
+        }
+
+        .content1 {
+            display: flex;
+            text-align: inherit;
+        }
+
+            .content1 i {
+                padding-right: 10px;
+                padding-top: 8px;
+            }
+
+        ul {
+            list-style: none;
+        }
+
+        nav {
+            margin-top: 3px;
+        }
+
+        ul.main-menu {
+            display: flex;
+        }
+
+            ul.main-menu a {
+                display: block;
+                padding: 12px 0px;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: bold;
+                position: relative;
+                color: #fff;
+                font-weight: bold;
+            }
+
+            ul.main-menu li {
+                padding: 0px 20px;
+            }
+
+            ul.main-menu a::after {
+                content: "";
+                height: 10px;
+                width: 0px;
+                background: #FFA500;
+                position: absolute;
+                bottom: 0px;
+                left: 0;
+                transition: all 0.5s ease-in-out;
+            }
+
+            ul.main-menu a:hover::after {
+                width: 50%;
+                transform: translateX(100%);
+            }
+            .banner{
+                margin-top:20px;
+                width:100%;
+                height: auto;
+            }
+            
+    </style>
+    <div style="height: 21px;width: 100%;background-color:#993333 ; padding-top: 5px;padding-bottom:5px;">
+        <marquee style="width: 100%; "scrollamount="10">
+            <i class="fa fa-star" aria-hidden="true" style="color:yellow">
+                <span style="width: 180px; background-color: #FFD700; height: 25px; margin-left: 10px; border-radius: 5px 5px; ">
+                    <span style="text-align:center;padding-top:2px;">
+                        <a style="font-size: 12px; color: #778899;font-weight:800;" href="#">THÊM VÀO GIỎ HÀNG NGAY<i style="margin-left:2px;" class="fa fa-volume-control-phone" aria-hidden="true"></i></a>
+                    </span>
+                </span>
+            </i>
+            <i style="color:yellow" class="fa fa-star" aria-hidden="true"></i>
+        </marquee>
+    </div>
+    <div style="width: 100%;background-color:#DCDCDC;height: 32px;padding-bottom:5px;" class="hotline" >
+        
+        <div style="width: 10%;">
+            <a href="#">
+                <span>
+                    <a style="font-size: 16px; font-weight: 900; color: #778899;">012345678</a>
+                </span>
+            </a>
+        </div>
+
+        <div style="width: 24%;">
+            <a href="#">
+                <span>
+                    <a style="font-size: 18px; font-weight: 900;font-family: Verdana, Geneva, Tahoma, sans-serif; color: tomato;"> <i class="fa fa-clock-o" aria-hidden="false">OPEN</i></a>
+                    <a style="font-size: 16px; font-weight: 900; font-family: Verdana, Geneva, Tahoma, sans-serif;  color: #778899;">Mon - Sat : 10:00 am - 20:00 pm</a>
+                </span>
+            </a>
+        </div>
+
+
+    </div>
+    <div class="header">
+        <div class="logo">
+            <div style="padding-right:200px">
+                <span style="margin-top:20px;">
+                    <a style="font-size: 40px; font-weight: 900; color: tomato;">MaxMobi</a>
+                </span>
+            </div>
+        </div>
+
+        <div class="search-hover">
+            <form action="" class="search" method="post">
+                <input type="text" class="searchTerm" placeholder="Bạn muốn tìm gì?">
+                <button type="submit" class="searchButton">
+                    TÌM KIẾM
+                </button>
+            </form>
+        </div>
+        <div class="shopping">
+            <div style="padding-left:35px;font-size:22px;">
+                <a href="#">
+                    <span>
+                        <i style="color:tomato; padding-top:8px;" aria-hidden="true"></i>
+                        <span style="color: #778899; font-weight: 700 ">Giỏ Hàng</span>
+                    </span>
+                </a>
+                <span style="border-left:3px solid #DCDCDC; height: 5px;"></span>
+                <span style="margin-left:6px">
+                    <a href="#">
+                        <i style="color:tomato;"  aria-hidden="true"></i>
+                        <span style="color: #778899; font-weight: 700 ">Login</span>
+                    </a>
+                </span>
+                <span style="border-left:3px solid #DCDCDC; height: 5px;"></span>
+                <span style="margin-left:6px">
+                    <a href="management.html">
+                        <i style="color:tomato;"  aria-hidden="true"></i>
+                        <span style="color: #778899; font-weight: 700 ">Quản lý</span>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-main">
+        <nav>
+            <ul class="main-menu">
+                <li><a href="homepage.html">Trang Chủ</a></li>
+                <li><a href="dienthoai.html">Điện Thoại</a></li>
+                <li><a href="#">Phụ Kiện</a></li>
+                <li><a href="#">SmartWatch</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</body>
+</html>

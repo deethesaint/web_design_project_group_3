@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>NEW PRODUCT</title>
+    <script src="../javascript/submitHandle.js"></script>
+</head>
+<body>
+    <form id="myForm" method="post">
+        <table cellpadding="15px">
+            <tr>
+                <td>
+                    <p>Tên sản phẩm</p>
+                </td>
+                <td>
+                    <input name="name" type="text" style="width: 450px">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Ảnh mô tả sản phẩm</p>
+                </td>
+                <td>
+                    <input name="image" type="file">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="description_1">Mô tả 1</label>
+                    <textarea name="description_1" style="width: 450px; height: 150px;">
+
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="description_2">Mô tả 2</label>
+                    <textarea name="description_2" style="width: 450px; height: 150px;">
+
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Loại sản phẩm</p>
+                </td>
+                <td>
+                    <select name="type">
+                        <option id="dienthoai">
+                            Điện thoại
+                        </option>
+                        <option>
+                            Tai nghe
+                        </option>
+                        <option>
+                            Ốp lưng
+                        </option>
+                        <option>
+                            Sạc dự phòng
+                        </option>
+                        <option>
+                            Cáp sạc, củ sạc
+                        </option>
+                        <option>
+                            Khác
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Thương hiệu</p>
+                </td>
+                <td>
+                    <select id="brand">
+                        <option id="samsung">
+                            Samsung
+                        </option>
+                        <option id="apple">
+                            Apple
+                        </option>
+                        <option id="oppo">
+                            OPPO
+                        </option>
+                        <option id="realme">
+                            Realme
+                        </option>
+                        <option id="xiaomi">
+                            Xiaomi
+                        </option>
+                        <option id="sony">
+                            Sony
+                        </option>
+                        <option id="oneplus">
+                            OnePlus
+                        </option>
+                        <option id="huawei">
+                            Huawei
+                        </option>
+                        <option id="google">
+                            Google
+                        </option>
+                        <option id="other">
+                            Khác
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Giá bán (VNĐ)</p>
+                </td>
+                <td>
+                    <input name="price" type="text" style="width: 450px">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Tình trạng sản phẩm</p>
+                </td>
+                <td>
+                    <label>Có sẵn</label>
+                    <input name="state" type="radio">
+                    <label>Đặt cọc</label>
+                    <input name="state" type="radio">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    RAM
+                </td>
+                <td>
+                    <input name="ram" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Bộ nhớ
+                </td>
+                <td>
+                    <input name="storage" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    CPU
+                </td>
+                <td>
+                    <input name="cpu" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Màn hình
+                </td>
+                <td>
+                    <input name="screen" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Camera sau
+                </td>
+                <td>
+                    <input name="rear_camera" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Camera trước
+                </td>
+                <td>
+                    <input name="front_camera" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Dung lượng pin
+                </td>
+                <td>
+                    <input name="battery" type="text">
+                </td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <input name="submit" type="submit" value="THÊM MỚI SẢN PHẨM">
+                    <input type="reset" value="RESET">
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title id="title"></title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="javascript/script.js"></script>
+    <link rel="stylesheet" href="css/def.css">
+    <script src="javascript/productdisplay.js"></script>
+    <script src="javascript/product.js"></script>
+    <style>
+        td {
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="sidernav"></div>
+    <div id="product-container">
+        <img id="p_img" style="float: left;">
+        <h2 id="p_header" style="font-size: 25px;"></h2>
+        <br />
+        <p id="p_description" style="white-space: pre-line; text-indent: 20px;" align="justify"></p>
+        <p id="p_s_description" style="white-space: pre-line; text-indent: 20px;" align="justify"></p>
+
+
+        <br>
+        <div style="width: 400px; float: left">
+            <p style="font-weight: bold;">THÔNG SỐ KỸ THUẬT</p>
+            <table border="1px solid black" style="border-collapse: collapse" align="left" width="400px">
+                <tr>
+                    <td>
+                        Bộ nhớ RAM
+                    </td>
+                    <td>
+                        <p id="p_ram"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Bộ nhớ trong
+                    </td>
+                    <td>
+                        <p id="p_storage"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Vi xử lý
+                    </td>
+                    <td>
+                        <p id="p_cpu"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Màn hình
+                    </td>
+                    <td>
+                        <p id="p_screen"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Camera sau
+                    </td>
+                    <td>
+                        <p id="p_rcam"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Camera trước
+                    </td>
+                    <td>
+                        <p id="p_fcam"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Dung lượng pin
+                    </td>
+                    <td>
+                        <p id="p_battery"></p>
+                    </td>
+                </tr>
+            </table>
+            
+            
+        </div>
+        
+        <div style="float:left">
+            <p style="padding-top: 80px; font-weight: bold; font-size: 26px;">
+                Giá bán:
+                <span style="margin-bottom: 20px">
+                    <p id="p_price" style="color: red; font-weight: bold; font-size: 26px;"></p>
+                </span>
+            </p>
+            <div style="margin-top: 15px">
+                <a href="#" style="background-color: orange; font-size: 18px; border-radius: 15px; padding: 5px; font-weight: bold;">
+                    THÊM VÀO GIỎ HÀNG
+                </a>
+            </div>
+        </div>
+        <script src="javascript/productdisplay.js"></script>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
