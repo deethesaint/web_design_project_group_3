@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+	body{
+		margin: 0 auto;
+        padding: 0;
+        font-family: Arial;
+        text-decoration: none;
+        list-style: none;
+	}
+	.header{
+		background: #181a1b;
+		width: 100%;
+		height: 70px
+	}
+	.side{
+		background-color: #ad280e;
+		float: left;
+		width: 25%;
+		height: 670px;
+	}
+	.midlogo{
+		float: left;
+		background-color: #ee4d2d;
+		width: 50%;
+		height: 670px;
+	}
+	.mid{
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 670px;
+	}
+	.formdangnhap{
+		background-color: #181a1b;
+		color: white;
+		float: right;
+		width: 400px;
+		height: 570px;
+		margin-top: 80px;
+		border-color: #181a1b;
+		border-radius: 10px;
+		margin-right: 20px;
+	}
+	.form{
+		padding: 0.75rem;
+		outline: none;
+		border: 0;
+		flex: 1;
+		flex-shrink: 0;
+		filter: none;
+		outline-color: initial;
+    	border-color: initial;
+		width: 93%;
+		height: 28px;
+	}
+	.inputt{
+		box-sizing: border-box;
+		width: 90%;
+		overflow: hidden;
+		border: 1px solid rgba(0,0,0,.14);
+		border-radius: 2px;
+		border-color: gray;
+		margin-left: 20px;
+	}
+	::placeholder { 
+		color: grey;
+	}
+	input{
+		background-color: #181a1b;
+		color: white;
+	}
+	button{
+		outline-color: #ad280e;
+		border-color: initial;
+		background-image: initial;
+		border: none;
+		width: 90%;
+		margin-left: 20px;
+		height: 50px;
+		border-radius: 3px;
+	}
+</style>
+</head>
+
+<body>
+	<div class="header">
+		<span style="padding-left:300px;margin-top:30px;">
+                    <a style="font-size: 40px; font-weight: 900; color: tomato;">Mobi</a>
+                    <a style="font-size: 30px; font-weight: 900; color: #778899;">MAX</a>
+			<label style="color: white; font-size: 25px; margin-left: 20px;"><b>Đăng Ký</b></label>
+		</span>
+		
+	</div>
+<div class="mid">
+		<div class="side">
+		</div>
+		<div class="midlogo">
+			<div style="margin-left: 100px; margin-top: 150px; float: left">
+			<label style="font-size: 90px; font-weight: 900; color: white;">Mobi</label><br>
+                    <label style="font-size: 80px; font-weight: 900; color: white;">MAX</label>
+				<br><br><label for="slogan" style="color: white;font-size: 20px">Fast, robust, and secure</label>
+			</div>
+			<div class="formdangnhap">
+					<p style="max-width: 9rem;font-size: 1.5rem; margin-left: 20px">Đăng ký</p>
+				<div class="inputt">
+					<input class="form" type="text" placeholder="Số điện thoại/Email" autocomplete="on" name="loginKey" maxlength="128" value>
+				</div>
+				<br>
+				<div class="inputt" style="margin-top: 20px">
+					<input class="form" type="password" placeholder="Mật khẩu" autocomplete="current-password" name="password" maxlength="16" value>
+				</div>
+				<button style="background-color: #ad280e;margin-top: 40px;"><label for="dnhap" style="color: white; font-size: 20px;">ĐĂNG KÝ</label></button>
+				<a href="#" style="margin: 10px; font-size: 15px;padding-top: 5px">Quên mật khẩu</a><br>
+				<div><div style="height: 1px; width: 150px; background-color: rgb(44, 48, 50); margin: 10px; margin-left: 15px; flex: 1; float: left"></div>
+				<span style="text-transform: uppercase; text-align: center; float: left; color: rgb(200, 195, 188); font-size: 15px">hoặc</span>
+				<div style="height: 1px; width: 150px; background-color: rgb(44, 48, 50); margin: 10px; flex: 1; float: left"></div>
+				</div>
+				<div><a href="#" alt=""><button style="background-color: rgb(5, 62, 165);margin-top: 10px"><img src="../assets/fblogo.png" width="28px" style="float: left; margin-left: 8px;"> <span style="font-size: 20px; color: white;float: left; margin-top: 5px; margin-left: 10px">ĐĂNG KÝ BẰNG FACEBOOK</span></button></a>
+				</div>
+				<div><a href="#" alt=""><button style="background-color:rgb(4, 50, 135); margin-top: 15px"><img src="../assets/gglogo.png" width="35px" style="margin-left: 5px;float: left"> <span style="font-size: 20px; color: white; float: left; margin-left: 10px; margin-top: 6px">ĐĂNG KÝ BẰNG GOOGLE</span></button></a>
+				</div>
+				<div style="float: left;margin-left: 110px; font-size: 15px; margin-top: 10px;">Đã có tài khoản?<a href="dangnhap.html" style="color: #ee4d2d;">Đăng nhập</a></div>
+		</div>
+		</div>
+		
+		<div class="side"></div>
+	</div>
+	<div class="footer"></div>
+</body> 
+</html>
